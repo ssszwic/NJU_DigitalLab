@@ -1,2 +1,4 @@
 obj_dir
 *.vcd
+logs
+build

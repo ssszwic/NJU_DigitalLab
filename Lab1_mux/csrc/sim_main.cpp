@@ -4,12 +4,10 @@
 #include <verilated.h>
 #include "Vtop.h"
 
-
 VerilatedContext* contextp = NULL;
 VerilatedVcdC* tfp = NULL;
 
 static Vtop* top;
-
 
 void sim_init(){
     contextp = new VerilatedContext;

@@ -83,7 +83,7 @@ always@(posedge sys_clk or negedge sys_rst_n) begin
         if((~data_shift[0]) && data_shift[10] && (^data_shift[9:1])) begin
             data_out    <=  data_shift[8:1];
             vld         <=  1'b1;
-            // degub
+            // debub
             $display("receive %x", data_shift[8:1]);
         end
         else begin

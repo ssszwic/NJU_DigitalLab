@@ -1,6 +1,4 @@
 module top(
-    input                           sys_clk         ,
-    input                           sys_rst_n       ,
     // data
     input       signed  [3:0]       a               ,
     input       signed  [3:0]       b               ,
